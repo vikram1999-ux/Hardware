@@ -1,0 +1,106 @@
+/************************************************* Header ********************************************************************/
+#Header{font-size:15px;}
+#Header + main {margin-top:270px;}
+#Header .HeadLink a{color:#000;} #Header .HeadLink a:hover{color:#ff001e;}
+#Header .border-right{color:#adad36;}
+#Header .input-group{width:400px;} .form-control:focus {z-index:1 !important;}
+#Header .input-group .form-control{background:#f0f0f0; border-color:#f0f0f0; border-radius:4px 0 0 4px; border-right:none; box-shadow:none; color:#4e4e4e; font-size:14px; min-height:48px !important; font-family: 'Open Sans', sans-serif;} 
+#Header .input-group .btn{background:#ff001e; padding:0 18px; border-radius:4px; border-color:#ff4901; border-left:none; color:#fff; font-size:16px;}
+#Header .input-group .btn:hover{background:#2e2e2e;border-color:#2e2e2e;color:#fff;}
+#Header .form-control::placeholder{color:#4e4e4e;}
+#Header .HeadLink .cart {position: relative;cursor: pointer;}
+#Header .HeadLink .cart .cart-count {position: absolute;top: -6px;right: -15px;background: #000;display: inline-block;color: #fff;font-size: 10px;
+height: auto;text-align: center;height: 19px;width: 19px;line-height: 17px;border-radius: 50%;}
+#Header .btn-light {color: #000;background-color: #fff;border-color: #fff; font-size:13px; letter-spacing:.020em;} .btn-light:focus {box-shadow: none !important;} #Header .dropdown-item {padding: 8px 15px;} #Header .btn-light{padding:2px 15px;} 
+/***************************MainBanner *******************************/
+.MainBanner .carousel-caption {z-index:9;display:flex;justify-content:center;align-items:center;margin:auto;bottom:0;right:0; top:0;}
+.MainBanner .carousel-caption .bg-danger{background:#ff001e !important; display:block; padding:10px; display:inline-block;}
+.MainBanner .carousel-control-next, .carousel-control-prev{opacity:1 !important; z-index:9;}
+.MainBanner .carousel-control-next:hover, .carousel-control-prev:hover{opacity:.5 !important;}
+/******************About**********************************************/
+#About img{padding:10px; border:1px solid #ff001e; box-shadow:10px 12px 12px rgba(0,0,0,.10);} #About p{margin-bottom:15px;}
+/***************************ElectronicsItem***************************/
+#ElectronicsItem .box-shadow {box-shadow: 2px 2px 2px rgba(0,0,0,.1);} #ElectronicsItem .Imgpro {position: relative;} #ElectronicsItem .Imgtext {position: absolute;width: 124px;height: 33px;font-size: 20px;text-align: center;right: 18px;bottom: 18px;box-shadow: 5px 5px 12px rgba(0,0,0,.25);border-radius: 3px;} .Heading a {font-size: 17px;padding: 15px 15px;display: block;color: #000;} .Heading a:hover{color:#f40011;}
+
+/********** Trending ***************************************************************************************************/
+#TrendingDeals .home-heading {font-size: 22px;margin: 40px 0 60px 0px !important; line-height: 1.2;font-weight: 600;} #TrendingDeals .borderbtm{border-bottom: solid 1px #ececec;border-top: solid 1px #ececec;padding: 20px 10px;}
+#TrendingDeals .Borbtm {border-bottom: solid 3px #e2e4e7;margin: 30px 0px 0px 0px;} #TrendingDeals a .text-light:hover{color:#000 !important;}
+/********** ProductArea ***************************************************************************************************/
+#ProductArea .probox{padding:18px; box-shadow:1px 2px 2px rgba(0,0,0,.10); border:1px solid #c4c4c4;} .Head{min-height:70px;}
+.Borbtm {border-bottom: solid 1px #d6d6d6;margin: 60px 0px 45px 0px;}
+/********** Footer ***************************************************************************************************/
+#Footer {color:#fff; font-size:13px; line-height:2.2;} 
+#Footer h4{margin-bottom:25px; background:url(../images/lineh.png) no-repeat left bottom; padding-bottom:25px;}
+#Footer a{color:#fff;}
+#Footer a:hover{color:#f40011;}
+#Footer hr{background-color:#434343; margin:0px 0px 15px 0px;}
+#Footer .copy{color:#555555 !important; font-size:12px;}
+#Footer .copy a{color:#555555 !important;}
+#Footer .copy a:hover{color:#f40011 !important;}
+
+/*************************************************************************************************************/
+
+@media (min-width:1200px) {.navbar .navbar-nav .nav-link {padding:20px 24px;} .shrink .navbar .navbar-nav .nav-link {padding:10px 24px !important;}
+.MainBanner .carousel-item img {height:530px;width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;}
+}
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(255,255,255,1); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:9999;}
+.Logo img {max-height:95px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition:0.5s;}
+.shrink .Logo img {max-height:80px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition:0.5s;}
+
+.Logo{padding:24px 0px 18px 0px;}
+.shrink .Logo{padding:15px 0 15px 0px;}
+.input-group .form-control{min-height:48px !important;}
+.shrink .input-group .form-control{min-height:15px !important;}
+
+.icons{padding-top:15px; padding-bottom:15px;} .shrink .icons{display:none;}
+
+}
+
+.container-new{max-width:1270px;padding-right:15px; padding-left:15px; margin:auto;}
+.container-fluid{max-width:1290px;} 
+.container{max-width:1170px;} 
+
+@media (min-width: 767.98px) {
+.gutter-lg {margin-left:-17px!important;margin-right:-17px!important;}
+.gutter-lg div[class^="col"]{padding-left:17px!important;padding-right:17px!important;}
+}
+
+@media (min-width: 1920px) {
+.MainBanner .carousel-control-next, .carousel-control-prev{width:37% !important;}
+.MainBanner .carousel-caption{left:12% !important;}
+}
+@media (min-width: 1600px) {
+.MainBanner .carousel-control-next, .carousel-control-prev{width:25%;} .MainBanner .carousel-caption{left:14%;}
+}
+
+@media (min-width: 1259.98px) and (max-width: 1459.98px) {  }
+@media (min-width: 1359.98px) and (max-width: 1459.98px) {	}
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {
+.MainBanner .carousel-control-next, .carousel-control-prev{width:7% !important;} .MainBanner .carousel-caption{left:9%;}
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+#ProductArea .fs-20 {font-size: 18px !important;} #ProductArea .Head {min-height: 90px;} .MainBanner .carousel-caption h1{font-size:80px;}
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+#Header{position:static;} #Header + main {margin-top:0px;} .Logo{padding-top:10px; padding-bottom:10px;}
+#TrendingDeals .home-heading {margin: 40px 0px !important;} .MainBanner .carousel-caption h1{font-size:50px;}
+
+}
+@media (max-width: 767.98px) {	
+#Header{position:static; padding:10px 0px 5px 0px;} #Header + main {margin-top:0px;} .Logo{padding-bottom:15px;}
+#Header .input-group{min-width:100%;} .Heading a {font-size: 14px; line-height:1.3;} #Header .input-group{width:100%;}
+.Head {min-height: auto;} #TrendingDeals .home-heading {margin: 40px 0px !important;} .MainBanner .carousel-caption{left:0px;}
+.MainBanner .carousel-caption h1{font-size:40px;}
+}
+
+@media (max-width: 576px){
+.MainBanner a img{height:40px;} .MainBanner .carousel-caption h1{font-size:35px;}
+#Footer h4{margin-bottom:15px; background:url(../images/lineh.png) no-repeat center bottom; padding-bottom:15px;}
+.MainBanner .carousel-item img {height:230px;width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;}
+.MainBanner .carousel-caption .bg-danger {padding: 0px;} #Header .dropdown-menu {position: absolute;transform: translate3d(0px, 50px, 0px) !important;left: -130px !important;}
+}
+
+@media (max-width: 479px) {}
